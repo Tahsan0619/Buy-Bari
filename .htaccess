@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Real files stay as they are: css, js, images, and the static pages.
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # /admin and every other Laravel route run through the public front controller.
+    RewriteRule ^ public/index.php [L]
+</IfModule>
