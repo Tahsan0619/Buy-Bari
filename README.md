@@ -4,6 +4,8 @@ Online shopping for home decor, kitchen, gadgets, fashion and food, with deliver
 
 **Live site:** [buy-bari.com](https://buy-bari.com)
 
+**Made by Tahsan Islam.** Copyright (c) Tahsan Islam.
+
 Laravel-powered storefront with category browsing, product catalog, cart, wishlist, checkout, and an admin area for managing products and orders.
 
 ---
@@ -89,9 +91,10 @@ app/, routes/, public/                      Laravel backend
 buybari.sql                                 Database dump
 docs/screenshots/                           README images
 ```
-
 ---
 
-## License
+## Author and copyright
 
-Private project for Buybari. All rights reserved.
+Everything in this project was designed and developed by **Tahsan Islam**.
+
+Copyright (c) 2026 **Tahsan Islam**. All rights reserved.
